@@ -7,28 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa6b8c10-da16-4308-b97a-2913778ef760" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/model/Ip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/tool/ProxyIp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/mapper/TestKingShardMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/mapper/TestKingShardMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/model/Detailedinfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/model/Detailedinfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/model/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/model/Price.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/service/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/service/TestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/spiderByMfr/Fetch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/spiderByMfr/Fetch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/spiderByMfr/Paser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/spiderByMfr/Paser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/spiderByMfr/ReadExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/spiderByMfr/ReadExcel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/spiderByMfr/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/spiderByMfr/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/SpringbootTestApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/SpringbootTestApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/mapper/TestKingShardMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/mapper/TestKingShardMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/model/Detailedinfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/model/Detailedinfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/model/Price.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/model/Price.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/service/TestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/service/TestService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/spiderByMfr/Fetch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/spiderByMfr/Fetch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/spiderByMfr/Paser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/spiderByMfr/Paser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/spiderByMfr/ReadExcel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/spiderByMfr/ReadExcel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/spiderByMfr/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/spiderByMfr/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/SpringbootTestApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/SpringbootTestApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +103,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -343,6 +322,7 @@
       <workItem from="1582617815571" duration="58000" />
       <workItem from="1582677466420" duration="19313000" />
       <workItem from="1582762018528" duration="3439000" />
+      <workItem from="1582849223415" duration="358000" />
     </task>
     <task id="LOCAL-00001" summary="upload">
       <created>1582590672911</created>
@@ -351,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582590672911</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="upload">
+      <created>1582849378840</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582849378840</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,10 +357,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="488" y="61" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1582709103945" />
-    <state x="165" y="0" key="CommitChangelistDialog2" timestamp="1582590668598">
+    <state x="165" y="0" key="CommitChangelistDialog2" timestamp="1582849502551">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="165" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1582590668598" />
+    <state x="165" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1582849502551" />
     <state x="398" y="161" key="FileChooserDialogImpl" timestamp="1582617844354">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -418,14 +405,14 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="213" y="26" key="Maven.ArtifactSearchDialog/0.0.1366.738@0.0.1366.738" timestamp="1581400194701" />
-    <state x="186" y="0" key="SettingsEditor" timestamp="1581399885902">
+    <state x="186" y="0" key="SettingsEditor" timestamp="1582849583972">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="186" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1581399885902" />
-    <state x="275" y="92" key="Vcs.Push.Dialog.v2" timestamp="1582591190839">
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1582849583972" />
+    <state x="275" y="92" key="Vcs.Push.Dialog.v2" timestamp="1582849382270">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="92" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1582591190839" />
+    <state x="275" y="92" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1582849382270" />
     <state x="53" y="53" key="new project wizard" timestamp="1581399442784">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
