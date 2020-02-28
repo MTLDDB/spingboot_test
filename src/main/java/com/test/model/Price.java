@@ -5,15 +5,12 @@ public class Price {
 
   private String objectid;
   private String priceJson;
-  private String infodetail_id;
+  private String detail_id;
   private java.sql.Timestamp creattime;
   private String detailId;
 
   private String price_json;
   private String createtime;
-  public String getInfodetail_id() {
-    return infodetail_id;
-  }
 
   public String getCreatetime() {
     return createtime;
@@ -23,8 +20,12 @@ public class Price {
     this.createtime = createtime;
   }
 
-  public void setInfodetail_id(String infodetail_id) {
-    this.infodetail_id = infodetail_id;
+  public String getDetail_id() {
+    return detail_id;
+  }
+
+  public void setDetail_id(String detail_id) {
+    this.detail_id = detail_id;
   }
 
   public String getPrice_json() {

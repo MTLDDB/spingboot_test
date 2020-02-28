@@ -31,6 +31,15 @@ public class Detailedinfo {
   private String spq;//标准包装
 
   private String attr_json;
+  private String price_json;
+
+  public String getPrice_json() {
+    return price_json;
+  }
+
+  public void setPrice_json(String price_json) {
+    this.price_json = price_json;
+  }
 
   public String getSpq() {
     return spq;

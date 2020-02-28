@@ -63,7 +63,7 @@ public void delete(String id){
     public List<Detailedinfo> getMfr() {
         return testKingShardMapper.getMfr();
     }
-    public List<Price> getPrice(String id){
+    public String  getPrice(String id){
         return  testKingShardMapper.getPrice(id);
     }
     public void update(String objectid) {

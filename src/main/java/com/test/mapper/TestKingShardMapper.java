@@ -58,8 +58,8 @@ public interface TestKingShardMapper {
     @Select("select * from tt_detailedinfo where ${clo}=#{s}")
     List<Detailedinfo> getProductBy(@Param("clo") String clo,@Param("s") String s);
 
-    @Select("select * from t_myprice where infodetail_id=#{id}")
-    List<Price> getPrice(@Param("id") String id);
+    @Select("select price_json from tt_price where detail_id=#{id};")
+    String getPrice(@Param("id") String  id);
     //https://www.verical.com/pd/iei-technology-box-pcs-tank-870ai-i7-8g-2a-r11-6254309
     @Select("select url from tt_mytask where status=0 order by createtime asc ;")
     List<Task> getTask();
@@ -68,7 +68,7 @@ public interface TestKingShardMapper {
     @Select("select attributes_json from tt_attributes where objectid=#{id}")
     String getAttr(@Param("id") String id);
 
-    @Select("select * from tt_detailedinfo where mfr ='Rubycon';")
+    @Select("select * from tt_detailedinfo where mfr ='Renesas Electronics America';")
     List<Detailedinfo> getMfr();
 
     @Update("update  tt_mytask set status=0 where objectid=#{id}")

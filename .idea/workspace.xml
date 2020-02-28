@@ -6,202 +6,29 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa6b8c10-da16-4308-b97a-2913778ef760" name="Default Changelist" comment="upload">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f6cd117f-2bf5-4ef2-b49a-ebd62ca9ce0b.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f6cd117f-2bf5-4ef2-b49a-ebd62ca9ce0b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f6cd117f-2bf5-4ef2-b49a-ebd62ca9ce0b/storage_v2/_src_/schema/kingshard.p7orBQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f6cd117f-2bf5-4ef2-b49a-ebd62ca9ce0b/storage_v2/_src_/schema/kingshard.p7orBQ.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_access_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_51.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_34.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_solr_solr_solrj_8_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_27.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_27.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_27.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_jute_3_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_http2_http2_client_9_4_20_v20190813.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_http2_http2_common_9_4_20_v20190813.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_http2_http2_hpack_9_4_20_v20190813.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_http2_http2_http_client_transport_9_4_20_v20190813.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_alpn_client_9_4_20_v20190813.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_alpn_java_client_9_4_20_v20190813.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_20_v20190813.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_20_v20190813.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_20_v20190813.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_20_v20190813.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_10_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_solr_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_solr_4_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/SpringbootTestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/gaizheng/Bijiao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/gouzi/SomeBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/mapper/TaskMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/mapper/TestKingShardMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/model/Detailedinfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/model/FutureResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/model/Price.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/model/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/model/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/pool/ThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/service/QueryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/service/TaskService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/service/TestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/solr/Query.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/solr/UploadProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/solr/updateTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/spiderByMfr/Fetch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/spiderByMfr/Paser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/spiderByMfr/ReadExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/spiderByMfr/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/tool/ExcelData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/tool/ScheduleSend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/updater/Updater_solr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/SpringbootTestApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/springboot_test.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/test/SpringbootTestApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/test/gaizheng/Bijiao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/test/gouzi/SomeBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/test/mapper/TaskMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/test/mapper/TestKingShardMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/test/model/Detailedinfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/test/model/FutureResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/test/model/Price.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/test/model/Stock.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/test/model/Task.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/test/pool/ThreadPool.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/test/service/QueryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/test/service/TaskService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/test/service/TestService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/test/solr/Query.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/test/solr/UploadProduct.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/test/solr/updateTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/test/spiderByMfr/Fetch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/test/spiderByMfr/Paser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/test/spiderByMfr/ReadExcel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/test/spiderByMfr/main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/test/tool/ExcelData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/springboot_test-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/springboot_test-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2020-02-13T14-20-10_941-jvmRun1.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2020-02-13T14-20-10_941-jvmRun1.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.SpringbootTestApplicationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.test.SpringbootTestApplicationTests.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/test/SpringbootTestApplicationTests.class" afterDir="false" />
+    <list default="true" id="aa6b8c10-da16-4308-b97a-2913778ef760" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/model/Ip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/tool/ProxyIp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/mapper/TestKingShardMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/mapper/TestKingShardMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/model/Detailedinfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/model/Detailedinfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/model/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/model/Price.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/service/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/service/TestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/spiderByMfr/Fetch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/spiderByMfr/Fetch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/spiderByMfr/Paser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/spiderByMfr/Paser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/spiderByMfr/ReadExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/spiderByMfr/ReadExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/spiderByMfr/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/spiderByMfr/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/SpringbootTestApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/SpringbootTestApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/mapper/TestKingShardMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/mapper/TestKingShardMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/model/Detailedinfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/model/Detailedinfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/model/Price.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/model/Price.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/service/TestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/service/TestService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/spiderByMfr/Fetch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/spiderByMfr/Fetch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/spiderByMfr/Paser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/spiderByMfr/Paser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/spiderByMfr/ReadExcel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/spiderByMfr/ReadExcel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/spiderByMfr/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/spiderByMfr/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/SpringbootTestApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/SpringbootTestApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,6 +84,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="055cc9a4-bdeb-4a23-8de6-62312de8c458" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -288,7 +118,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579427885038" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../amalldp/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -308,7 +138,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.main">
+  <component name="RunManager" selected="JUnit.SpringbootTestApplicationTests">
     <configuration name="UploadProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.test.solr.UploadProduct" />
       <module name="springboot_test" />
@@ -415,8 +245,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.main" />
         <item itemvalue="JUnit.SpringbootTestApplicationTests" />
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.UploadSolr" />
         <item itemvalue="JUnit.SpringbootTestApplicationTests.contextLoads" />
         <item itemvalue="Application.UploadProduct" />
@@ -506,8 +336,22 @@
       <workItem from="1582506850514" duration="34000" />
       <workItem from="1582511506703" duration="8922000" />
       <workItem from="1582531312320" duration="2042000" />
-      <workItem from="1582590119726" duration="461000" />
+      <workItem from="1582590119726" duration="2228000" />
+      <workItem from="1582595345393" duration="1030000" />
+      <workItem from="1582596772272" duration="682000" />
+      <workItem from="1582597475945" duration="5150000" />
+      <workItem from="1582617815571" duration="58000" />
+      <workItem from="1582677466420" duration="19313000" />
+      <workItem from="1582762018528" duration="3439000" />
     </task>
+    <task id="LOCAL-00001" summary="upload">
+      <created>1582590672911</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582590672911</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -522,46 +366,54 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="137" y="26" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1581389616734" />
-    <state x="165" y="0" key="CommitChangelistDialog2" timestamp="1582590256328">
+    <state x="488" y="61" key="#com.intellij.ide.util.MemberChooser" timestamp="1582709103945">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="165" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1582590256328" />
-    <state x="398" y="161" key="FileChooserDialogImpl" timestamp="1582590144718">
+    <state x="488" y="61" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1582709103945" />
+    <state x="165" y="0" key="CommitChangelistDialog2" timestamp="1582590668598">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="398" y="161" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1582590144718" />
-    <state width="1322" height="147" key="GridCell.Tab.0.bottom" timestamp="1582537392543">
+    <state x="165" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1582590668598" />
+    <state x="398" y="161" key="FileChooserDialogImpl" timestamp="1582617844354">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="147" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1582537392543" />
-    <state width="1322" height="147" key="GridCell.Tab.0.center" timestamp="1582537392543">
+    <state x="398" y="161" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1582617844354" />
+    <state x="534" y="294" key="Github.Dialog.Accounts.Choose" timestamp="1582591206355">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="147" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1582537392543" />
-    <state width="1322" height="147" key="GridCell.Tab.0.left" timestamp="1582537392543">
+    <state x="534" y="294" key="Github.Dialog.Accounts.Choose/0.0.1366.738@0.0.1366.738" timestamp="1582591206355" />
+    <state width="1322" height="300" key="GridCell.Tab.0.bottom" timestamp="1582765773469">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="147" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1582537392543" />
-    <state width="1322" height="147" key="GridCell.Tab.0.right" timestamp="1582537392543">
+    <state width="1322" height="300" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1582765773469" />
+    <state width="1322" height="300" key="GridCell.Tab.0.center" timestamp="1582765773468">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="147" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1582537392543" />
-    <state width="1020" height="167" key="GridCell.Tab.1.bottom" timestamp="1581598912870">
+    <state width="1322" height="300" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1582765773468" />
+    <state width="1322" height="300" key="GridCell.Tab.0.left" timestamp="1582765773468">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1020" height="167" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1581598912870" />
-    <state width="1020" height="167" key="GridCell.Tab.1.center" timestamp="1581598912870">
+    <state width="1322" height="300" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1582765773468" />
+    <state width="1322" height="300" key="GridCell.Tab.0.right" timestamp="1582765773469">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1020" height="167" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1581598912870" />
-    <state width="1020" height="167" key="GridCell.Tab.1.left" timestamp="1581598912870">
+    <state width="1322" height="300" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1582765773469" />
+    <state width="1322" height="300" key="GridCell.Tab.1.bottom" timestamp="1582765773469">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1020" height="167" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1581598912870" />
-    <state width="1020" height="167" key="GridCell.Tab.1.right" timestamp="1581598912870">
+    <state width="1322" height="300" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1582765773469" />
+    <state width="1322" height="300" key="GridCell.Tab.1.center" timestamp="1582765773469">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1020" height="167" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1581598912870" />
+    <state width="1322" height="300" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1582765773469" />
+    <state width="1322" height="300" key="GridCell.Tab.1.left" timestamp="1582765773469">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1322" height="300" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1582765773469" />
+    <state width="1322" height="300" key="GridCell.Tab.1.right" timestamp="1582765773469">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1322" height="300" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1582765773469" />
     <state x="213" y="26" key="Maven.ArtifactSearchDialog" timestamp="1581400194701">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -570,14 +422,18 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="186" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1581399885902" />
+    <state x="275" y="92" key="Vcs.Push.Dialog.v2" timestamp="1582591190839">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="92" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1582591190839" />
     <state x="53" y="53" key="new project wizard" timestamp="1581399442784">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="53" y="53" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1581399442784" />
-    <state x="339" y="159" key="run.anything.popup" timestamp="1582527628626">
+    <state x="339" y="159" key="run.anything.popup" timestamp="1582709072633">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="339" y="159" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1582527628626" />
+    <state x="339" y="159" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1582709072633" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1582525269959">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

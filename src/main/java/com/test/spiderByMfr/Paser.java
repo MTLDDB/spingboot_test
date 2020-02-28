@@ -44,23 +44,33 @@ public class Paser {
         Matcher matcher = p.matcher(baseUrl);
         matcher.find();
         String flag = matcher.group(2);
-        Element span = document.getElementById("matching-records-count");
-        String numString = span.text().replace(",", "");
-        num = Integer.valueOf(numString);
-        System.out.println(num);
-        int pageSize = num / 100 + 1;
-        for (int i = 1; i <=pageSize; i++) {
-            String url = baseUrl + "%2C-8%7C" + flag + "&quantity=0&ColumnSort=0&page=" + i + "&pageSize=100";
-            urls.add(url);
+        try {
+            Element span = document.getElementById("matching-records-count");
+            String numString = span.text().replace(",", "");
+            num = Integer.valueOf(numString);
+            System.out.println(num);
+            int pageSize = num / 100 + 1;
+            for (int i = 1; i <=pageSize; i++) {
+                String url = baseUrl + "%2C-8%7C" + flag + "&quantity=0&ColumnSort=0&page=" + i + "&pageSize=100";
+                urls.add(url);
+            }
+        }catch (Exception e){
+            System.out.println(e+baseUrl);
         }
+
         return urls;
     }
 
-    public boolean judgeType(Document document) {
+    public int judgeType(Document document) {
         Element table = document.getElementById("productTable");
         if(table!=null)
-            return true;
-        else
-            return false;
+            return 1;
+        else{
+            Element div = document.getElementById("pdp_content");
+            if(div!=null)
+                return 2;
+            else
+                return 3;
+        }
     }
 }

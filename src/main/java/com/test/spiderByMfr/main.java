@@ -21,10 +21,10 @@ public class main {
         Fetch fetch = new Fetch();
         Paser paser = new Paser();
         ReadExcel readExcel = new ReadExcel();
-        String path = "C:\\Users\\Administrator\\Desktop\\Excel\\Excelsecond";
+        String path = "C:\\Users\\Administrator\\Desktop\\Excel22222\\second6.xls";
         List<String> outList = new ArrayList<>();
-        for(int i=0;i<5;i++){
-            path=path+i+".xls";
+        //for(int i=0;i<5;i++){
+           // path=path+i+".xls";
             List<String> UrlList = readExcel.getExcel(path);
             for (String listUrl : UrlList) {
                 try {
@@ -38,31 +38,38 @@ public class main {
                     e.printStackTrace();
                 }
             }
-            getExcel("end",outList);
-        }
+            getExcel("end6",outList);
+      //  }
     }
     public static void getListUrl() {
         Fetch fetch = new Fetch();
         Paser paser = new Paser();
         ReadExcel readExcel = new ReadExcel();
-        String path = "C:\\Users\\Administrator\\Desktop\\Excel\\tetsCate.xls";
+        String path = "C:\\Users\\Administrator\\Desktop\\Excel22222\\tetsCate.xls";
         List<String> categoryUrlList = readExcel.getExcel(path);
         List<String> outList = new ArrayList<>();
+        List<String> outUrl = new ArrayList<>();
         int i = 0;
         for (String listUrl : categoryUrlList) {
             try {
                 Document document = null;
-                if (document == null)
-                    fetch.noProxyGetDoc(listUrl);
-                if (paser.judgeType(document)) {//如果该页码存在分页列表，直接将URL加入到excel
+                System.out.println(listUrl);
+                while (document == null)
+                    document=fetch.noProxyGetDoc(listUrl);
+                int flag=paser.judgeType(document);
+                if (flag==1) {//如果该页码存在分页列表，直接将URL加入到excel
                     outList.add(listUrl);
-                    System.out.println("ture");
+                    System.out.println(flag);
+                } else if(flag==2){
+                    outUrl.add(listUrl);
+                    System.out.println(flag);
                 } else {//否者进行再分类
                     List<String> outList2 = paser.getListUrl(document);
                     getExcel("second" + i, outList2);
                     i++;
                 }
-                getExcel("third", outList);
+                getExcel("thirdUrl", outUrl);
+                getExcel("thirdList", outList);
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -119,7 +126,7 @@ public class main {
         }
         // 第六步，将文件存到指定位置
         try {
-            FileOutputStream fout = new FileOutputStream("C:\\Users\\Administrator\\Desktop\\Excel\\" + excelName + ".xls");
+            FileOutputStream fout = new FileOutputStream("C:\\Users\\Administrator\\Desktop\\Excel22222\\" + excelName + ".xls");
             wb.write(fout);
             fout.close();
         } catch (

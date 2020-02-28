@@ -24,4 +24,20 @@ public class ReadExcel {
         }
         return urlList;
     }
+
+
+    public List<String> getExcel_Re(String path) {
+        List<String> urlList = new ArrayList<>();
+        ExcelData excelData = new ExcelData(path, "sheet1");
+        HSSFSheet sheet = excelData.getSheet();
+        int rows = sheet.getPhysicalNumberOfRows();//行数
+        for (int i = 1; i < rows; i++) {
+            //获取列数
+            HSSFRow row = sheet.getRow(i);
+            //int columns = row.getPhysicalNumberOfCells();//列数
+            String cell = row.getCell(0).toString();
+            urlList.add(cell);
+        }
+        return urlList;
+    }
 }
