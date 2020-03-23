@@ -1,8 +1,13 @@
 package com.test.spiderByMfr;
 
+import com.test.mapper.TestKingShardMapper;
 import com.test.model.Detailedinfo;
+import com.test.service.TestService;
+import com.test.solr.Query;
 import org.apache.poi.hssf.usermodel.*;
 import org.jsoup.nodes.Document;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -10,18 +15,22 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class main {
-    public static void main(String[] args) {
 
-        String url = "https://www.digikey.com/en/supplier-centers/r/renesas-electronics-america";
-        //getCategoryList(url);//获取制造商下的所有的分类并生成Excel表，
-        //getListUrl();
-        getEndUrl();
-    }
+//    public static void main(String[] args) throws Exception {
+//        new Query().querySolr("82fdea29512337718a19e590b1c1b60f");
+//       // String url = "https://www.digikey.com/en/supplier-centers/t/taiyo-yuden";
+//        //getCategoryList(url);//获取制造商下的所有的分类并生成Excel表，
+//        //getListUrl();
+//       // getEndUrl();
+//    }
+
+
+
     public static void getEndUrl() {
         Fetch fetch = new Fetch();
         Paser paser = new Paser();
         ReadExcel readExcel = new ReadExcel();
-        String path = "C:\\Users\\Administrator\\Desktop\\Excel22222\\second6.xls";
+        String path = "C:\\Users\\Administrator\\Desktop\\taiyo\\second3.xls";
         List<String> outList = new ArrayList<>();
         //for(int i=0;i<5;i++){
            // path=path+i+".xls";
@@ -38,14 +47,14 @@ public class main {
                     e.printStackTrace();
                 }
             }
-            getExcel("end6",outList);
+            getExcel("end3",outList);
       //  }
     }
     public static void getListUrl() {
         Fetch fetch = new Fetch();
         Paser paser = new Paser();
         ReadExcel readExcel = new ReadExcel();
-        String path = "C:\\Users\\Administrator\\Desktop\\Excel22222\\tetsCate.xls";
+        String path = "C:\\Users\\Administrator\\Desktop\\taiyo\\tetsCate.xls";
         List<String> categoryUrlList = readExcel.getExcel(path);
         List<String> outList = new ArrayList<>();
         List<String> outUrl = new ArrayList<>();
@@ -126,7 +135,7 @@ public class main {
         }
         // 第六步，将文件存到指定位置
         try {
-            FileOutputStream fout = new FileOutputStream("C:\\Users\\Administrator\\Desktop\\Excel22222\\" + excelName + ".xls");
+            FileOutputStream fout = new FileOutputStream("C:\\Users\\Administrator\\Desktop\\taiyo\\" + excelName + ".xls");
             wb.write(fout);
             fout.close();
         } catch (

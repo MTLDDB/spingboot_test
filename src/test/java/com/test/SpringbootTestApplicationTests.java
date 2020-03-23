@@ -3,15 +3,11 @@ package com.test;
 import com.alibaba.fastjson.JSON;
 import com.test.model.Detailedinfo;
 import com.test.model.Price;
-import com.test.model.Task;
-import com.test.pool.ThreadPool;
 import com.test.service.QueryService;
 import com.test.service.TaskService;
 import com.test.service.TestService;
-import com.test.solr.UploadProduct;
-import com.test.spiderByMfr.ReadExcel;
+import com.test.solr.Query;
 import org.apache.poi.hssf.usermodel.*;
-import org.apache.solr.client.solrj.SolrServerException;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -28,12 +24,13 @@ class SpringbootTestApplicationTests {
     private TaskService taskService;
     @Autowired
     private QueryService queryService;
-    @Autowired
-    private UploadProduct uploadProduct;
+//    @Autowired
+//    private UploadProduct uploadProduct;
 
     @Test
-    void contextLoads() throws IOException, SolrServerException {
+    void contextLoads() throws Exception {
 
+        new Query().querySolr("82fdea29512337718a19e590b1c1b60f");
 //        List<Detailedinfo> productList = testService.getMfr();
 //        List<Detailedinfo> products=new ArrayList<>();
 //        for(Detailedinfo p:productList){
@@ -43,23 +40,23 @@ class SpringbootTestApplicationTests {
 //            p.setPrice_json(price);
 //            products.add(p);
 //        }
-        ReadExcel readExcel = new ReadExcel();
-        String path = "C:\\Users\\Administrator\\Desktop\\ID.xls";
-        List<String> ids=readExcel.getExcel(path);
-        List<Detailedinfo> products=new ArrayList<>();
-//        ids.add("3eb3b7e2b1ed3d47b2f8aae412276bb4");
-//        ids.add("3efec03a601c3969b53b395676f1b962");
-//        List<Price> products=testService.getPrice(ids);
-        for(String id:ids){
-            System.out.println(id);
-            Detailedinfo p=new Detailedinfo();
-            String price=testService.getPrice(id);
-            System.out.println(price);
-            p.setPrice_json(price);
-            p.setObjectid(id);
-            products.add(p);
-        }
-        getExcel_id("Renesas_price", products);
+//        ReadExcel readExcel = new ReadExcel();
+//        String path = "C:\\Users\\Administrator\\Desktop\\ID.xls";
+//        List<String> ids=readExcel.getExcel(path);
+//        List<Detailedinfo> products=new ArrayList<>();
+////        ids.add("3eb3b7e2b1ed3d47b2f8aae412276bb4");
+////        ids.add("3efec03a601c3969b53b395676f1b962");
+////        List<Price> products=testService.getPrice(ids);
+//        for(String id:ids){
+//            System.out.println(id);
+//            Detailedinfo p=new Detailedinfo();
+//            String price=testService.getPrice(id);
+//            System.out.println(price);
+//            p.setPrice_json(price);
+//            p.setObjectid(id);
+//            products.add(p);
+//        }
+//        getExcel_id("Renesas_price", products);
     }
 
     public static void getExcel_price(String excelName, List<Price> list) {

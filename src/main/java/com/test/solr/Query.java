@@ -1,18 +1,18 @@
 package com.test.solr;
 
-import org.apache.solr.client.solrj.SolrClient;
+
+import com.test.model.SolrBean;
 import org.apache.solr.client.solrj.SolrQuery;
 import org.apache.solr.client.solrj.impl.HttpSolrClient;
 import org.apache.solr.client.solrj.response.QueryResponse;
 import org.apache.solr.common.SolrDocument;
 import org.apache.solr.common.SolrDocumentList;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
 public class Query {
-    @Autowired
-    private SolrClient solrClient;
+//    @Autowired
+//    private SolrClient solrClient;
 //    public void querySolr() throws Exception{
 //
 //        // HttpSolrServer solrServer = new HttpSolrServer(SOLR_URL+"test");//http://127.0.0.1:8081/amall3-solr/collection1
@@ -68,4 +68,20 @@ public class Query {
 ////            }
 ////        }
 //    }
+
+    public SolrBean querySolr(String id) throws Exception{
+        HttpSolrClient solrClient=new HttpSolrClient("http://localhost:8983/solr/new_core");
+        SolrQuery query = new SolrQuery();
+        String str="id:"+id;//+webmpn.replace("[","%5B").replace("]","%5D");
+        query.set("q",str);// 参数q  查询所有
+        QueryResponse response = solrClient.query(query);
+        SolrDocumentList solrDocumentList = response.getResults();
+        SolrDocument doc =solrDocumentList.get(0);
+        SolrBean solrBean=new SolrBean();
+        solrBean.setId(id);
+        solrBean.setWebmpn(doc.get("webmpn").toString());
+        solrBean.setPrice(doc.get("price").toString());
+        solrBean.setAttr(doc.get("attr").toString());
+        return solrBean;
+    }
 }
